@@ -1,6 +1,6 @@
 {
   "name": "vite-component-library",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "files": [
     "dist"
   ],
@@ -12,7 +12,7 @@
       "require": "./dist/lib.umd.js"
     }
   },
-  "typings": "./dist/lib.d.ts",
+  "typings": "./dist/src/lib.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",

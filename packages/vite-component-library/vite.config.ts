@@ -8,9 +8,9 @@ export default defineConfig({
   plugins: [vue(), dts()],
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'lib/main.ts'),
+      entry: path.resolve(__dirname, 'src/lib'),
       name: 'MyLib',
-      fileName: (format) => `my-lib.${format}.js`
+      fileName: (format) => `lib.${format}.js`
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
