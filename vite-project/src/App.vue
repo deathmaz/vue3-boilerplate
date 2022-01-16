@@ -2,12 +2,12 @@
   import { defineAsyncComponent } from 'vue';
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-// import HelloWorld from './components/HelloWorld.vue';
 const HelloWorld = defineAsyncComponent(() => import('./components/HelloWorld.vue'));
-import { LibInput } from 'vite-component-library';
+import { LibInput, LibHeadline } from 'vite-component-library';
 </script>
 
 <template>
+  <LibHeadline text="some text" />
   <img alt="Vue logo" src="./assets/logo.png" />
   <LibInput :title="'hello'" />
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
