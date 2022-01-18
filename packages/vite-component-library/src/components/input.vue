@@ -5,6 +5,6 @@ defineProps<{title?: string}>()
 <template>
   <div>
     <h3>{{ title }}</h3>
-    <input type="text" @input="$emit('input', $event)" />
+    <input placeholder="Type here" type="text" @input="$emit('input', $event)" />
   </div>
 </template>
