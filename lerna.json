@@ -1,5 +1,6 @@
 {
   "packages": [
+    "vite-ssr-project",
     "vite-project",
     "packages/*"
   ],
