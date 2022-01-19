@@ -13,5 +13,3 @@ export async function onBeforeRender(pageContext:PageContextBuiltIn) {
     }
   };
 }
-
-export const passToClient = ['pageProps', 'urlPathname'];
