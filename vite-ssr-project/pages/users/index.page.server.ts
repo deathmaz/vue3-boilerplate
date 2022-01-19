@@ -1,12 +1,11 @@
 import type { PageContextBuiltIn } from 'vite-plugin-ssr'
+import axios from 'axios';
 
-export function onBeforeRender(pageContext:PageContextBuiltIn) {
+export async function onBeforeRender(pageContext:PageContextBuiltIn) {
   const { userId } = pageContext.routeParams;
+  const user = await axios.get(`https://swapi.dev/api/people/${userId}`);
   const pageProps = {
-    user: {
-      id: userId,
-      name: 'John Doe',
-    }
+    user: user.data,
   };
   return {
     pageContext: {

@@ -1,7 +1,8 @@
 <template>
   <div>
     <h1>{{user.name}}</h1>
-    <h2>{{user.id}}</h2>
+    <p>The height is: {{ user.height }}</p>
+    <p>The mass is: {{ user.mass }}</p>
   </div>
 </template>
 
