@@ -7,5 +7,9 @@
 </template>
 
 <script setup lang="ts">
-defineProps(['user']);
+  import { onMounted } from 'vue';
+  const props = defineProps(['user']);
+  onMounted(() => {
+    console.log(props.user)
+  })
 </script>

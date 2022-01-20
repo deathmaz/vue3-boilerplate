@@ -2,6 +2,6 @@
 
 curDir=$(pwd)
 
-npx lerna clean -y && npx lerna bootstrap --hoist
-cd "${curDir}/packages/vite-component-library"
-npm run build
+yarn install \
+  && cd "${curDir}/packages/vite-component-library" \
+  && yarn run build

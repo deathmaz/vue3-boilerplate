@@ -1,8 +1,12 @@
 {
   "name": "root",
-  "private": false,
   "devDependencies": {
     "lerna": "^4.0.0"
   },
+  "workspaces": [
+    "vite-ssr-project",
+    "vite-project",
+    "packages/*"
+  ],
   "packageManager": "yarn@3.1.1"
 }
