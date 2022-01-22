@@ -7200,7 +7200,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-component-library@^0.1.0, vite-component-library@workspace:packages/vite-component-library":
+"vite-component-library@workspace:^, vite-component-library@workspace:packages/vite-component-library":
   version: 0.0.0-use.local
   resolution: "vite-component-library@workspace:packages/vite-component-library"
   dependencies:
@@ -7260,7 +7260,7 @@ __metadata:
     "@vitejs/plugin-vue": ^2.0.0
     typescript: ^4.4.4
     vite: ^2.7.2
-    vite-component-library: ^0.1.0
+    vite-component-library: "workspace:^"
     vue: ^3.2.25
     vue-tsc: ^0.29.8
   languageName: unknown
@@ -7281,7 +7281,7 @@ __metadata:
     ts-node: ^10.4.0
     typescript: ^4.5.4
     vite: ^2.7.12
-    vite-component-library: ^0.1.0
+    vite-component-library: "workspace:^"
     vite-plugin-ssr: ^0.3.45
     vue: ^3.2.26
   languageName: unknown

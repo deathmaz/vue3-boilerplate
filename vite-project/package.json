@@ -7,7 +7,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vite-component-library": "^0.1.0",
+    "vite-component-library": "workspace:^",
     "vue": "^3.2.25"
   },
   "devDependencies": {
