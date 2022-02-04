@@ -9,6 +9,8 @@
 </template>
 
 <script lang="ts" setup>
-import Counter from './Counter.vue'
-import { LibInput } from 'vite-component-library';
+import {
+  LibInput,
+} from 'vite-component-library';
+import Counter from './Counter.vue';
 </script>

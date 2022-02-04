@@ -7,9 +7,16 @@
 </template>
 
 <script setup lang="ts">
-  import { onMounted } from 'vue';
-  const props = defineProps(['user']);
-  onMounted(() => {
-    console.log(props.user)
-  })
+import {
+  onMounted,
+} from 'vue';
+
+const props = defineProps([
+  // eslint-disable-next-line
+  'user',
+]);
+onMounted(() => {
+  // eslint-disable-next-line
+  console.log(props.user);
+});
 </script>

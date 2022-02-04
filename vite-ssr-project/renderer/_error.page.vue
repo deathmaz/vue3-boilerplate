@@ -10,5 +10,8 @@
 </template>
 
 <script lang="ts" setup>
-defineProps(['is404'])
+defineProps([
+  // eslint-disable-next-line
+  'is404',
+]);
 </script>
