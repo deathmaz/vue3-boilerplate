@@ -1,5 +1,9 @@
 {
   "name": "root",
+  "scripts": {
+    "build:all": "yarn workspaces foreach -pt run build",
+    "lint:all": "yarn workspaces foreach -p run lint"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   },

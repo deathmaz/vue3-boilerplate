@@ -9,6 +9,7 @@ defineEmits([
   <div>
     <h3>{{ title }}</h3>
     <input
+      class="my-input"
       placeholder="Type here"
       type="text"
       @input="$emit('input', $event)"

@@ -34,7 +34,7 @@ const color = ref('red');
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Avenir", "Helvetica", "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -43,6 +43,6 @@ const color = ref('red');
 }
 
 .headline {
-  color: v-bind('color');
+  color: v-bind("color");
 }
 </style>
