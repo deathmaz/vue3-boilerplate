@@ -2,7 +2,8 @@
   "name": "root",
   "scripts": {
     "build:all": "yarn workspaces foreach -pt run build",
-    "lint:all": "yarn workspaces foreach -p run lint"
+    "lint:all": "yarn workspaces foreach -p run lint",
+    "lint:all:fix": "yarn workspaces foreach -p run lint:fix"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
